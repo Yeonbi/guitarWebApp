@@ -1,0 +1,17 @@
+h2 {
+    margin-left: 10px;
+    background: url("../img/icon.png") no-repeat left top;
+    background-size: contain; /* 여백 크기에 맞춰 배경이미지 조절 */
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.musician {
+    display: block;
+    width: 90%;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

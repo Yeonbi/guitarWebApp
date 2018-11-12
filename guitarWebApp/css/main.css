@@ -1,0 +1,68 @@
+/* tag 선택자 */
+body {
+    font-family: "맑은 고딕","돋움","굴림";
+    background: url("../img/bg.jpg") no-repeat left top fixed;
+    background-size: cover; /* 문서 크기에 따라 배경이미지 크기도 조절 */
+}
+/* ID 선택자 */
+#wrapper {
+    margin:10px auto;
+    width: 890px;
+
+}
+article {
+    display: block; /* article 태그를 블록 컨텐트로 지정 */
+    margin: 15px auto 0;
+    /*border: 1px solid #fff;*/
+}
+nav {
+    width: 100%; /* 너비는 부모인 article의 너비와 같게 */
+    height: 40px;
+    background-color: #222;
+    border-radius: 5px 5px; /* 혼자해봄 */
+}
+section {
+    padding: 5px 20px;
+    border-left: 2px solid #222222;
+    border-right: 2px solid #222;
+    background-color:rgba(255,255,255,.8);
+}
+nav ul {
+    list-style:none; /* 불릿 기호 없애기 */
+}
+nav ul li { /* nav 밑에 ul 밑에 li css 적용 */
+    float: left; /* 아래와 같음, 엔터를 쳐서 아래로 정렬되어 있던 것이 좌측에서 우측으로 1줄 정렬*/
+    /*display: inline; 위쪽 margin 이 좁아짐..*/
+    margin: 10px;
+}
+nav a,h1 a {
+    padding: 6px 35px 9px;
+    color: white;
+    text-decoration: none; /* 밑줄 없애기 */
+    text-shadow: 0 2px 1px black;
+}
+/* 가상(pseudo)선택자 */
+nav a:hover {
+    background-color: #ffd800;
+    color: black;
+    text-shadow: none;
+    /*border-radius: 15px 50px; 숫자가 더 크면 기울기가 큼, 아래과 같은 방법*/
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+nav a.current { /*.current 해도 되고 nav a.current 해도됨 */
+    background-color: white;
+    color: black;
+    text-shadow: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+footer {
+    margin:0 auto; /* 화면 중앙에 배치 */
+    padding: 20px;
+    font-size: 9px;
+    background-color: #666;
+    color: white;
+    border: 2px solid #222222;
+}

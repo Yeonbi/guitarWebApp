@@ -1,0 +1,58 @@
+<style>
+    @import url("css/common.css");
+</style>
+<style>
+    div img {
+        float: left;
+        margin: 5px 15px;
+    }
+    p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+</style>
+<h2>Audio 재생</h2>
+<div class="musician">
+    <img src="img/bach.jpg">
+    <h3>바흐(Johann Sebastian Bach, 1685~1750)</h3>
+    <P>
+        서양 음악의 아버지라고 일컫는 바흐는 바로크 시대의 최후에 위치하는 대작곡가로서,
+        독일음악의 전통에 깊이 뿌리박고 있을 뿐 아니라,
+        그 위에 이탈리아나 프랑스의 양식을 채택하고 그것들을 융합하여 독자적 개성적인 음악을 창조하였다.
+    </P>
+    <P>
+        바로크 음악에 있어서 바흐는 대위법 기술의 정수(精粹)를 다했을 뿐 아니라,
+        당시에 이미 궁정문화에 침투했던 프랑스나 이탈리아의 양식을 스스로 받아들여 칸타타에 아름다운 꽃을 피우기도 했다.
+        거기에는 그가 직접적 또는 간접적으로 배운 여러 나라의 온갖 요소가 모두 투입되어 그만이 지닐 수 있는 최고로 천재적인
+        용광로 속에서 융화되어 일치미를 이루고 있다.
+    </P>
+    <h3>Sinfonia</h3>
+    <!--
+    controls : control 막대 표시
+    autoplay : page 가 열리자마자 자동 재생
+    muted : 재생은 하지만 소리를 끈다(음소거상태로 재생?)
+    loop : 반복 재생
+    -->
+    <audio controls autoplay muted loop>
+        <source src="audio_video/bach.mp3">
+        <source src="audio_video/bach.ogg">
+    </audio>
+</div>
+
+<h2>video 재생</h2>
+<div class="musician">
+    <h3>제주의 봄</h3>
+    <!--
+    controls : control 막대
+    autoplay : 자동 재생
+    poster : 비디오 화면 자리에 대신 표시하는 이미지
+    -->
+    <video width="450" height="300" controls poster="img/ready.jpg">
+        <source src="audio_video/gate.mp4">
+        <source src="audio_video/gate.ogv">
+        <source src="audio_video/gate.webm">
+        <source src="audio_video/gate.wmv">
+        <track src="audio_video/Painting.vtt"
+        srclang="ko" label="korean" default>
+    </video>
+</div>
