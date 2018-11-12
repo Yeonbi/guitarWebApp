@@ -1,17 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>String 동아리</title>
+    <script>
+        window.onload = function () {
+            window.open("intro.html","display_area");//화면이 뜨자마자
+        }
+    </script>
 </head>
 <body>
-<h1>String</h1>
-<ul>
-    <li><a href="main.html">Home</a></li>
-    <li><a href="">String의 활동</a></li>
-    <li><a href="">회원가입</a></li>
-    <li><a href="">멀티미디어</a></li>
-    <li><a href="">관심도서</a></li>
-</ul>
+<div id="wrapper">
+    <header>
+        <h1>String</h1>
+    </header>
+    <article>
+        <nav>
+            <ul>
+                <li><a href="intro.html" target="display_area">Home</a></li>
+                <li><a href="">String의 활동</a></li>
+                <li><a href="">회원가입</a></li>
+                <li><a href="">멀티미디어</a></li>
+                <li><a href="">관심도서</a></li>
+            </ul>
+        </nav>
+        <section>
+            <iframe name="display_area"
+            style="border-style:none;"
+            width="850px" height="500px">
+
+            </iframe>
+        </section>
+    </article>
+    <footer>
+        <p>아무시 아무동 111-11번지 우리대학교 학생회관 420호 전화: 246-2220 (교) 3420</p>
+        <address> 관리자 : stringAdmin@uri.ac.kr</address>
+    </footer>
+</div>
 </body>
 </html>
