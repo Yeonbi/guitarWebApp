@@ -47,8 +47,8 @@ function clickPause() {
 }
 
 function updateState() {
-    document.getElementById("currentTime").innerHTML = videoE.currentTime + " sec";
-    document.getElementById("duration").innerHTML = videoE.duration + " sec";
+    document.getElementById("currentTime").innerHTML = videoE.currentTime + " sec"; //현재까지 재생시간
+    document.getElementById("duration").innerHTML = videoE.duration + " sec"; //전체 재생시간
     document.getElementById("ended").innerHTML = videoE.ended;
     document.getElementById("paused").innerHTML = videoE.paused;
 }

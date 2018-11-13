@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a24cfcd0-5d27-409b-9e74-3b797c0ce0bd" name="Default Changelist" comment="">
+    <list default="true" id="a24cfcd0-5d27-409b-9e74-3b797c0ce0bd" name="Default Changelist" comment="두번째 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5Source/ch04/ex405_adv-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5Source/ch04/ex405_adv-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5Source/ch04/ex405_reserve.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5Source/ch04/ex405_reserve.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5Source/ch04/ex406_datalist.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5Source/ch04/ex406_datalist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5Source/ch07/ex1103_multimedia_control.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5Source/ch07/ex1103_multimedia_control.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guitarWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guitarWebApp/activiy.html" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/activiy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guitarWebApp/audio_video.html" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/audio_video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guitarWebApp/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/guitarWebApp/main.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,33 +25,35 @@
     <session id="-1415169986">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="html" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="102" />
+          <entry key="html" value="934" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="102" />
+          <entry key="HTML" value="934" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -52,14 +61,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guitarWebApp/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="234">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guitarWebApp/favorite.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html5api/01webstorage/local_session_storage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -71,13 +94,26 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/HTML5Source/ch04/ex405_adv-text.html" />
+        <option value="$PROJECT_DIR$/HTML5Source/ch04/ex405_reserve.html" />
+        <option value="$PROJECT_DIR$/HTML5Source/ch04/ex406_datalist.html" />
         <option value="$PROJECT_DIR$/guitarWebApp/main.html" />
+        <option value="$PROJECT_DIR$/HTML5Source/ch07/ex1103_multimedia_control.html" />
+        <option value="$PROJECT_DIR$/html5api/01webstrorage/local_session_storage.html" />
+        <option value="$PROJECT_DIR$/html5api/01webstorage/local_session_storage.html" />
       </list>
     </option>
   </component>
@@ -93,8 +129,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="46" />
+    <option name="x" value="132" />
+    <option name="y" value="78" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
@@ -121,8 +157,24 @@
             <path>
               <item name="html5_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="html5_api" type="462c0819:PsiDirectoryNode" />
-              <item name="guitarWebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="html5api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html5_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="html5api" type="462c0819:PsiDirectoryNode" />
+              <item name="01webstorage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html5_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML5Source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html5_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML5Source" type="462c0819:PsiDirectoryNode" />
+              <item name="ch07" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,8 +184,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/guitarWebApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -149,6 +202,39 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.local_session_storage.html">
+    <configuration name="ex1103_multimedia_control.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/HTML5Source/ch07/ex1103_multimedia_control.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="ex406_color.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/HTML5Source/ch04/ex406_color.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="ex406_datalist.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/HTML5Source/ch04/ex406_datalist.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="local_session_storage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/html5api/01webstorage/local_session_storage.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html5_api/guitarWebApp/main.html">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.ex406_color.html" />
+      <item itemvalue="JavaScript Debug.ex406_datalist.html" />
+      <item itemvalue="JavaScript Debug.main.html" />
+      <item itemvalue="JavaScript Debug.ex1103_multimedia_control.html" />
+      <item itemvalue="JavaScript Debug.local_session_storage.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.local_session_storage.html" />
+        <item itemvalue="JavaScript Debug.ex1103_multimedia_control.html" />
+        <item itemvalue="JavaScript Debug.main.html" />
+        <item itemvalue="JavaScript Debug.ex406_datalist.html" />
+        <item itemvalue="JavaScript Debug.ex406_color.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -166,6 +252,10 @@
       <workItem from="1541995243439" duration="599000" />
       <workItem from="1541997062462" duration="1298000" />
       <workItem from="1541998897669" duration="10000" />
+      <workItem from="1542068352025" duration="198000" />
+      <workItem from="1542068576169" duration="2107000" />
+      <workItem from="1542070745969" duration="1788000" />
+      <workItem from="1542072560286" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="두번째 commit">
       <created>1541998534293</created>
@@ -178,10 +268,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4758000" />
+    <option name="totallyTimeSpent" value="8866000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="46" width="1400" height="820" extended-state="0" />
+    <frame x="132" y="78" width="1400" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
@@ -214,18 +304,70 @@
     <option name="LAST_COMMIT_MESSAGE" value="두번째 commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guitarWebApp/main.html">
+    <entry file="file://$PROJECT_DIR$/HTML5Source/ch04/ex405_date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5Source/ch04/ex405_reserve.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5Source/ch04/ex406_color.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5Source/ch04/ex405_adv-text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5Source/ch04/ex406_datalist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5Source/ch07/ex1103_multimedia_control.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guitarWebApp/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guitarWebApp/favorite.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/guitarWebApp/intro.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5api/01webstorage/local_session_storage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

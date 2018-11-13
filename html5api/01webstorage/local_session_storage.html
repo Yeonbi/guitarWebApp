@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #emailSpan {
+            border: 1px solid blue;
+            margin: 20px;
+            width: 300px;
+        }
+        button {
+            margin: 20px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            view()
+        }
+        function save() {
+            var emailInput = document.getElementById("emailInput");
+            //lacalStorage에 email 이란 Key를 가진 값이 없으면
+            if (!localStorage.getItem("email")) {
+                localStorage.setItem("email", emailInput.value);
+                console.log("save()"+localStorage.getItem('email'));
+                emailInput.value = '';
+                view();
+            }else {
+
+            }
+        }
+        function view() {
+            if(localStorage.getItem("email")){
+                document.getElementById("emailSpan").innerHTML =
+                    localStorage.getItem("email");
+            }
+        }
+        function remove() {
+
+        }
+    </script>
+</head>
+<body>
+ <h1>Web Storage</h1>
+    Email 주소 : <input type="email" id="emailInput"><br/>
+    <button onclick="save()">저장</button>
+    <hr>
+    Email 주소 보기 : <span id="emailSpan"></span><br/>
+    <button onclick="view()">보기</button>
+    <button onclick="remove()">삭제</button>
+</body>
+</html>
