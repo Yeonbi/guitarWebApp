@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #myDiv {
+            border: 1px solid blue;
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            document.getElementById("myFile")
+                .addEventListener("change",fileFunc);
+        }
+
+        function fileFunc(ev) {
+            console.log("선택된 file의 갯수 " +ev.target.files.length);
+            myFileList = ev.target.files;
+            console.log(myFileList);
+            for(var i=0;i<myFileList.length;i++){
+                console.log('Name : ' +myFileList[i].name);
+                console.log('Type : ' +myFileList[i].type);
+                console.log('Size : ' +myFileList[i].size);
+                console.log('Date : ' +new Date(myFileList[i].lastModified));
+                var clone = myFileList[i].slice(0,Math.floor(myFileList[i].size/2), "image/jpeg");
+                console.log(clone.size);
+            }
+            //File Object 1개를 가져오는 방식
+            var myDiv = document.getElementById("myDiv");
+            var fileObj = ev.target.files.item(0);
+            var fileReader = new FileReader();
+            var childDiv = document.createElement("div");
+            childDiv.setAttribute("style","border:2px solid red");
+
+            fileReader.onload = function (ev) {
+                childDiv.innerText = ev.target.result;
+                myDiv.appendChild(childDiv);
+            }
+            fileReader.readAsText(fileObj,"euc-kr"); //한글이 들어있는 파일인 경우 euc-kr 붙인다.
+
+            //기존에 열린 chile element 삭제
+            while(myDiv.hasChildNodes()) {
+                myDiv.removeChild(myDiv.firstChild);
+            }
+            //파일 진행 상태 보여주는 코드 url
+            // https://www.html5rocks.com/en/tutorials/file/dndfiles/
+        }
+    </script>
+</head>
+<body>
+    <h1>File 정보 읽기</h1>
+    <input type="file" id="myFile" multiple>
+    <div id="myDiv"></div>
+
+</body>
+</html>

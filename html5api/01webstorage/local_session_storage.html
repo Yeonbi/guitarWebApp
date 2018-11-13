@@ -17,6 +17,12 @@
         window.onload = function () {
             view()
         }
+        function save_session() {
+            if(!sessionStorage.getItem("name")){
+                sessionStorage.setItem("name",
+                document.getElementById("nameInput").value);
+            }
+        }
         function save() {
             var emailInput = document.getElementById("emailInput");
             //lacalStorage에 email 이란 Key를 가진 값이 없으면
@@ -26,7 +32,14 @@
                 emailInput.value = '';
                 view();
             }else {
-
+                //localStorage 에 email key를 가진 값이 있으면
+                var msg = "저장된 값 "+ localStorage.getItem("email") + "수정하시겠습니까?";
+                var flag = confirm(msg);
+                if(flag){
+                    localStorage.setItem("email", emailInput.value);
+                    document.getElementById("emailInput").value ='';
+                    view();
+                }
             }
         }
         function view() {
@@ -36,14 +49,23 @@
             }
         }
         function remove() {
-
+            var msg = "저장된 값 "+ localStorage.getItem("email")+ "를 삭제하시겠습니까?";
+            var flag = confirm(msg);
+            if(flag){
+                localStorage.removeItem("email");
+                document.getElementById("emailSpan").innerHTML ='';
+                document.getElementById("emailSpan").value ='';
+            }
         }
     </script>
 </head>
 <body>
  <h1>Web Storage</h1>
-    Email 주소 : <input type="email" id="emailInput"><br/>
-    <button onclick="save()">저장</button>
+    Email 주소 입력: <input type="email" id="emailInput"><br/>
+    <button onclick="save()">저장</button><br/>
+    Name 입력 : <input type="name" id="nameInput"><br/>
+    <button onclick="save_session()">세션에 저장</button>
+
     <hr>
     Email 주소 보기 : <span id="emailSpan"></span><br/>
     <button onclick="view()">보기</button>

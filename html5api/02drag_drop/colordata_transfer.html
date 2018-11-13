@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #dragBlue{
+            border:2px solid blue;
+            width: 100px;
+            margin:10px;
+        }
+        #dragRed {
+            border:2px solid red;
+            width:100px;
+            margin:10px;
+        }
+        #drop {
+            border:2px solid black;
+            width:300px;
+            height: 200px;
+            margin:50px;
+            background-color:yellow;
+        }
+    </style>
+    <script>
+        var dragBlue;
+        var dragRed;
+        var dropDiv;
+
+        window.onload = function() {
+            init();
+        }
+
+        function init() {
+            dragBlue = document.getElementById("dragBlue");
+            dragRed = document.getElementById("dragRed");
+            dropDiv = document.getElementById("drop");
+
+            // dragRed에 dragstart 이벤트(api에 정해져있는 이벤트임)가 발생하면 startFunc 함수 호출
+            dragBlue.addEventListener("dragstart", startFunc);
+            dragRed.addEventListener("dragstart", startFunc);
+            dropDiv.addEventListener("dragover", overFunc);
+            dropDiv.addEventListener("drop", dropFunc);
+
+        }
+
+        function dropFunc(event) {
+            event.preventDefault();
+            var color_name = event.dataTransfer.getData("bcolor");
+            dropDiv.style["background-color"] = color_name;
+        }
+        function startFunc(event) {
+            var color = event.target.innerTest;
+            // console.log(color);
+            event.dataTransfer.setData("bcolor",color);
+        }
+        
+        function overFunc(event) {//기본 event가 동작하지 않도록 막아준다.
+            event.preventDefault();
+            console.log("drop zone");
+        }
+
+    </script>
+</head>
+<body>
+    <span id="dragBlue" draggable="true">blue</span>
+    <span id="dragRed" draggable="true">red</span>
+
+    <div id="drop" dropzone="copy">Hello Color</div>
+
+</body>
+</html>

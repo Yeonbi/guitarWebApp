@@ -11,7 +11,7 @@
                 var exist_count = 0;
                 if(localStorage.getItem('numFavorites')){
                     exist_count = Number(localStorage.getItem('numFavorites'));
-                }
+                }//Number 함수로 문자를 > 숫자로 변환
                 spanTags = document.getElementsByTagName('span');
                 var count = 0;
                 for(var i=0;i<spanTags.length;i++) {

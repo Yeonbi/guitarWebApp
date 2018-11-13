@@ -1,0 +1,34 @@
+수업시간에 사용할 실습 예제
+
+https://drive.google.com/drive/u/1/folders/1ljpUopcD107P0KWtMLugucRDcfObYSbi
+
+
+How well does your browser support html5?
+
+http://html5test.com/
+
+
+
+HTML5 Tutorial
+
+https://www.w3schools.com/html/default.asp
+
+
+
+CSS Tutorial
+
+https://www.w3schools.com/css/default.asp
+
+
+
+HTML5 Shiv
+
+https://github.com/aFarkas/html5shiv
+
+
+
+HTML5 Cross Browser Polyfills
+https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills
+
+[출처] HTML5 와 CSS3 그리고 API|작성자 vega2k
+
